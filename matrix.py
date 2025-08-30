@@ -17,9 +17,9 @@ def matrix_subraction(a, b):
     return res
 
 def printMatrix(m):
-    print("="*20)
-    print("Printing the matrix: ")
-    print("="*20)
+    print("-"*20)
+    print("The matrix is: ")
+    print("-"*20)
     for i in range(len(m)):
         for j in range(len(m[0])):
             print(m[i][j], end = " ")
